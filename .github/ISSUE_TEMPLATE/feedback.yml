@@ -1,0 +1,16 @@
+name: Feedback Report
+description: Provide us some feedback
+title: "[feedback]: "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feedback report!
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What do you think of the extension?
+      description: Tell us what you think of the extension or how we can make the experience better.
+    validations:
+      required: true
