@@ -5,7 +5,7 @@ on:
     types: [opened]
 
 jobs:
-  greeting:
+  clickup-task:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -14,7 +14,7 @@ jobs:
         node-version: '16'
     - run: npm ci
     - run: node scripts/create-task.js
-      with:
+      env:
         # https://docs.github.com/en/developers/webhooks-and-events/webhooks/webhook-events-and-payloads#issues
         ISSUE_ID: '${{ github.event.issue.number }}'
         ISSUE_TITLE: '${{ github.event.issue.title }}'
