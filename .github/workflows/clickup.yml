@@ -18,7 +18,7 @@ jobs:
         # https://docs.github.com/en/developers/webhooks-and-events/webhooks/webhook-events-and-payloads#issues
         ISSUE_ID: '${{ github.event.issue.number }}'
         ISSUE_TITLE: '${{ github.event.issue.title }}'
-        ISSUE_URL: '${{ github.event.issue.url }}'
+        ISSUE_URL: '${{ github.event.issue.html_url }}'
         ISSUE_DESCRIPTION: '${{ github.event.issue.body }}'
         CLICKUP_API_KEY: '${{ secrets.CLICKUP_API_KEY }}'
         CLICKUP_LIST_ID: '${{ secrets.CLICKUP_LIST_ID }}'
