@@ -28,7 +28,7 @@ const listId = process.env.CLICKUP_LIST_ID;
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        "name": issue_title,
+        "name": `${issue_title} (#${issue_id})`,
         "description": `${issue_url}
 
 ${issue_description}      
