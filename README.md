@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="RapidAPI" src="https://github.com/RapidAPI/feedback/blob/main/assets/rapidapi-logo-128x128.png?raw=true">
+  <img alt="RapidAPI" src="https://github.com/RapidAPI/feedback/blob/main/assets/rapid-logo-128x128.png?raw=true">
 </p>
 
 # RapidAPI Tools - Feedback
