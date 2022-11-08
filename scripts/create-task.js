@@ -34,9 +34,9 @@ const listId = process.env.CLICKUP_LIST_ID;
 ${issue_description}      
 `,
         "tags": ["github"],
-        "status": "BACKLOG",
+        "status": "TODO",
         "priority": 3,
-        "notify_all": true,
+        "notify_all": false,
         "parent": null,
         "links_to": null
       })
